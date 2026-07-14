@@ -1,0 +1,221 @@
+body {
+  box-sizing: border-box;
+  /* height: 100%; */
+  /* width: 100%; */
+  padding: 0;
+  margin: 0;
+  background-color: #28292a;
+}
+
+.header-container {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color:    red; */
+}
+
+.navbar-items {
+  height: 100%;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  list-style: none;
+  color: white;
+}
+
+.navbar-profile {
+  height: 100%;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  list-style: none;
+  color: white;
+  /* background-color: green; */
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.profile {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.container {
+  height: 800px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 6rem;
+  padding: 0;
+  margin: 30px;
+  color: white;
+  /* letter-spacing: 0px; */
+}
+
+.search-bar {
+  height: 50px;
+  width: 40%;
+  background-color: #444746;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 2rem;
+  /* padding: 0px 20px; */
+  flex-direction: row;
+}
+
+.search-bar:hover{
+    cursor: pointer;
+      background-color: #5b5f5e;
+}
+
+.search-ai-mode{
+    display: flex;
+              align-items: center;
+              justify-content: space-between;
+              background-color: rgb(107, 107, 107);
+              border-radius: 20px;
+              width: fit-content;
+              padding: 0px 5px;
+}
+
+.input-bar {
+  height: 100%;
+  width: 60%;
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  /* background-color: red; */
+}
+
+li:nth-child(3) {
+  /* background-color: red; */
+  margin-top: 2px;
+}
+
+.navbar-profile li:nth-child(3):hover {
+  border-radius: 50%;
+  background-color: #444746;
+}
+
+.footer-navs {
+  height: 100px;
+  width: 100%;
+  background-color: #252525;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  /* padding-left:10px ; */
+}
+
+.items-container {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 20px; */
+}
+
+.footer-left-items {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  list-style: none;
+  color: white;
+}
+
+.footer-right-items {
+  height: 100%;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  list-style: none;
+  color: white;
+}
+
+.first-footer-container {
+  height: 50%;
+  width: 100%;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  box-sizing: border-box;
+  /* background-color: red; */
+  /* padding: 10px 20px; */
+  padding-left: 25px;
+  /* justify-content: flex-start; */
+}
+
+.button-search{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.new-button{
+    height: 40%;
+    width: 150px;
+    background-color: #555555;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.new-button:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.offer-google{
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+    color:rgb(0, 173, 173);
+}
