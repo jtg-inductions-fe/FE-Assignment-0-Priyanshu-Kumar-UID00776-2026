@@ -4,7 +4,7 @@ A simple Google search page copy made with HTML and CSS. It has a cool dark them
 
 ## What's this?
 
-This is just a fun project where I recreated the Google search homepage. It looks like the real Google but with a dark mode design. Everything is built from scratch using plain HTML and CSS.
+This is mine Assignment-0 I recreated the Google search homepage. It looks like the real Google but with a dark mode design. Everything is built from scratch using plain HTML and CSS.
 
 ## Files in this project
 
