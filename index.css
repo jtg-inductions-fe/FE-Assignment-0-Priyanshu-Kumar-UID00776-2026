@@ -1,0 +1,264 @@
+:root { 
+  --font-sans : arial, sans-serif ;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #212227;
+}
+
+
+/* Particular elements tag styling */
+
+h1 {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 6rem;
+  padding: 0;
+  margin: 30px;
+  color: white;
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color:#99c3ff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header styling */
+
+.header-container {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px 30px;
+  font-family: var(--font-sans);
+}
+
+.navbar-items {
+  height: 100%;
+  width: 6%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+}
+
+.navbar-profile {
+  height: 100%;
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+  color: white;
+}
+
+.grid-container {
+  padding: 10px 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container:hover {
+  background-color: #444746;
+}
+
+.profile {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #303134;
+  cursor: pointer;
+}
+
+.profile:hover {
+  border: 1px solid white;
+}
+
+/* Main section area styling */
+
+.container {
+  height: 45rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search-bar {
+  height: 50px;
+  width: 40%;
+  background-color: #444746;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 2rem;
+  flex-direction: row;
+}
+
+.search-bar:hover {
+  cursor: pointer;
+  background-color: #5b5f5e;
+}
+
+#add-icon {
+  position: relative; 
+  left: 20px;
+}
+
+.input-bar {
+  height: 100%;
+  width: 60%;
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.mic-lens-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 200px;
+}
+
+.search-ai-mode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: rgb(107, 107, 107);
+  border-radius: 20px;
+  width: fit-content;
+  height: 35px;
+  padding: 0px 10px;
+}
+
+#ai-tag {
+  font-size: 15px; 
+  margin: 0;
+  font-family: var(--font-sans);
+}
+
+.button-search {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.offer-google {
+  color: white;
+  font-family: var(--font-sans);
+}
+
+.new-button {
+  height: 40%;
+  width: 150px;
+  background-color: #303134;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: var(--font-sans);
+}
+
+.new-button:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+/* Footer styling */
+
+.footer-navs {
+  height: 100px;
+  width: 100%;
+  background-color: #121215;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.footer-container {
+  height: 50%;
+  width: 100%;
+  border-bottom: 1px solid #444746;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  box-sizing: border-box;
+  padding-left: 25px;
+}
+
+.items-container {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left-items {
+  height: 100%;
+  width: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  list-style: none;
+  color: white;
+}
+
+.footer-right-items {
+  height: 100%;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  list-style: none;
+  color: white;
+}
+
+
+
+
+
