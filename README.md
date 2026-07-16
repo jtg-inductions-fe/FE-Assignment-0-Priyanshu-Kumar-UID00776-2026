@@ -47,6 +47,7 @@ Any modern web browser (Chrome, Firefox, Safari, Edge, etc.) - that's it!
 
 Here's how it looks:
 
-![Application Screenshot](images/Screenshot from 2026-07-15 00-18-58.png)
+<img src="./images/Screenshot.png" alt="App Screenshot" width="400">
+
 
 
